@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import Cocoa
+
+class mainSplitViewController: NSSplitViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func splitView(_ splitView: NSSplitView, canCollapseSubview subview: NSView) -> Bool {
+        if (subview.subviews[0].identifier!.rawValue == "sidebar") {
+            return true
+        }
+        return false
+    }
+}

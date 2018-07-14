@@ -1,0 +1,33 @@
+func probeMusic(path: String) -> [String] {
+
+var musicList = [String]()
+
+let fm = FileManager.default
+fm.changeCurrentDirectoryPath(path)
+
+func checkDir(path: String, fm: FileManager) {
+var contents = [""]
+do {
+try contents = fm.contentsOfDirectory(atPath: path)
+} catch {
+print(error)
+}
+for file in contents {
+var isDir = ObjCBool(false)
+if fm.fileExists(atPath: path+"/"+file, isDirectory: &isDir) && isDir.boolValue == true {
+checkDir(path: path+"/"+file, fm: fm)
+} else if fm.fileExists(atPath: path+"/"+file, isDirectory: &isDir) && isDir.boolValue == false {
+let fileExtension = file.fileExtension() as CFString
+let fileUTI = UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, fileExtension, nil)?.takeRetainedValue()
+
+if UTTypeConformsTo(fileUTI!, kUTTypeAudio) {
+musicList.append(path+"/"+file)
+}
+}
+}
+}
+
+checkDir(path: path, fm: fm)
+
+return musicList
+}

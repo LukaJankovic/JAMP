@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A1E641EF20FA8829002359DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E641EE20FA8829002359DE /* AppDelegate.swift */; };
-		A1E641F120FA8829002359DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E641F020FA8829002359DE /* ViewController.swift */; };
 		A1E641F320FA882B002359DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E641F220FA882B002359DE /* Assets.xcassets */; };
 		A1E641F620FA882B002359DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E641F420FA882B002359DE /* Main.storyboard */; };
 		A1E6420220FA882B002359DE /* JAMPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6420120FA882B002359DE /* JAMPTests.swift */; };
 		A1E6420D20FA882B002359DE /* JAMPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6420C20FA882B002359DE /* JAMPUITests.swift */; };
+		A1E6421D20FA888A002359DE /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6421C20FA888A002359DE /* MusicLibrary.swift */; };
+		A1E6422120FA974F002359DE /* MusicLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6422020FA974F002359DE /* MusicLibraryManager.swift */; };
+		A1E6422920FA9D4F002359DE /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6422820FA9D4F002359DE /* MainSplitViewController.swift */; };
+		A1E6422B20FAADFA002359DE /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6422A20FAADFA002359DE /* Sidebar.swift */; };
+		A1E6422F20FAB9B1002359DE /* ;-( in Resources */ = {isa = PBXBuildFile; fileRef = A1E6422E20FAB9B1002359DE /* ;-( */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,6 @@
 /* Begin PBXFileReference section */
 		A1E641EB20FA8829002359DE /* JAMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E641EE20FA8829002359DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1E641F020FA8829002359DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1E641F220FA882B002359DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1E641F520FA882B002359DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1E641F720FA882B002359DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +49,11 @@
 		A1E6420820FA882B002359DE /* JAMPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAMPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E6420C20FA882B002359DE /* JAMPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAMPUITests.swift; sourceTree = "<group>"; };
 		A1E6420E20FA882B002359DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E6421C20FA888A002359DE /* MusicLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		A1E6422020FA974F002359DE /* MusicLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLibraryManager.swift; sourceTree = "<group>"; };
+		A1E6422820FA9D4F002359DE /* MainSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
+		A1E6422A20FAADFA002359DE /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		A1E6422E20FAB9B1002359DE /* ;-( */ = {isa = PBXFileReference; lastKnownFileType = text; path = ";-("; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				A1E641EE20FA8829002359DE /* AppDelegate.swift */,
-				A1E641F020FA8829002359DE /* ViewController.swift */,
+				A1E6421B20FA886E002359DE /* Backend */,
+				A1E6421A20FA8866002359DE /* User Interface */,
 				A1E641F220FA882B002359DE /* Assets.xcassets */,
 				A1E641F420FA882B002359DE /* Main.storyboard */,
 				A1E641F720FA882B002359DE /* Info.plist */,
 				A1E641F820FA882B002359DE /* JAMP.entitlements */,
+				A1E6422E20FAB9B1002359DE /* ;-( */,
 			);
 			path = JAMP;
 			sourceTree = "<group>";
@@ -122,6 +132,24 @@
 				A1E6420E20FA882B002359DE /* Info.plist */,
 			);
 			path = JAMPUITests;
+			sourceTree = "<group>";
+		};
+		A1E6421A20FA8866002359DE /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A1E6422820FA9D4F002359DE /* MainSplitViewController.swift */,
+				A1E6422A20FAADFA002359DE /* Sidebar.swift */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		A1E6421B20FA886E002359DE /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				A1E6421C20FA888A002359DE /* MusicLibrary.swift */,
+				A1E6422020FA974F002359DE /* MusicLibraryManager.swift */,
+			);
+			path = Backend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +220,11 @@
 				TargetAttributes = {
 					A1E641EA20FA8829002359DE = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					A1E641FC20FA882B002359DE = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -228,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E6422F20FAB9B1002359DE /* ;-( in Resources */,
 				A1E641F320FA882B002359DE /* Assets.xcassets in Resources */,
 				A1E641F620FA882B002359DE /* Main.storyboard in Resources */,
 			);
@@ -254,8 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E641F120FA8829002359DE /* ViewController.swift in Sources */,
+				A1E6422B20FAADFA002359DE /* Sidebar.swift in Sources */,
+				A1E6422920FA9D4F002359DE /* MainSplitViewController.swift in Sources */,
+				A1E6422120FA974F002359DE /* MusicLibraryManager.swift in Sources */,
 				A1E641EF20FA8829002359DE /* AppDelegate.swift in Sources */,
+				A1E6421D20FA888A002359DE /* MusicLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +456,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = JAMP/JAMP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = JAMP/Info.plist;
@@ -437,7 +473,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = JAMP/JAMP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = JAMP/Info.plist;

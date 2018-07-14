@@ -12,35 +12,15 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
-        var songs = [MusicItem]()
-
-        for i in 0...10 {
-            songs.append(MusicItem(path: "test "+String(i), lastPlayed: Date()))
+        // Setup global music library manager
+        if UserDefaults.standard.array(forKey: "musicLibraries") != nil {
+            MusicLibraryManager.globalManager.musicLibraries = UserDefaults.standard.array(forKey: "musicLibraries") as! [String]
+        } else {
+            print("Music library list is nil")
         }
-        
-        var album = MusicAlbum(itemList: songs)
-        var lib = MusicLibrary(albumList: [album])
-        
-        var filePath = "/Users/luka/Temp/test.jamp"
-        var data = NSKeyedArchiver.archivedData(withRootObject: lib)
-
-        for item in lib.albumList[0].itemList {
-            print(item.)
-        }
-        
-        do {
-            try data.write(to: URL(fileURLWithPath: filePath))
-        } catch {
-            print(error)
-        }
-        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
-
 }
-
