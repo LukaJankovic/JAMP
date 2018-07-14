@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1E641EF20FA8829002359DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E641EE20FA8829002359DE /* AppDelegate.swift */; };
+		A1E641F120FA8829002359DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E641F020FA8829002359DE /* ViewController.swift */; };
+		A1E641F320FA882B002359DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E641F220FA882B002359DE /* Assets.xcassets */; };
+		A1E641F620FA882B002359DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E641F420FA882B002359DE /* Main.storyboard */; };
+		A1E6420220FA882B002359DE /* JAMPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6420120FA882B002359DE /* JAMPTests.swift */; };
+		A1E6420D20FA882B002359DE /* JAMPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6420C20FA882B002359DE /* JAMPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1E641FE20FA882B002359DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E641E320FA8829002359DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E641EA20FA8829002359DE;
+			remoteInfo = JAMP;
+		};
+		A1E6420920FA882B002359DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E641E320FA8829002359DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E641EA20FA8829002359DE;
+			remoteInfo = JAMP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1E641EB20FA8829002359DE /* JAMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E641EE20FA8829002359DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1E641F020FA8829002359DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1E641F220FA882B002359DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1E641F520FA882B002359DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1E641F720FA882B002359DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E641F820FA882B002359DE /* JAMP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JAMP.entitlements; sourceTree = "<group>"; };
+		A1E641FD20FA882B002359DE /* JAMPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAMPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E6420120FA882B002359DE /* JAMPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAMPTests.swift; sourceTree = "<group>"; };
+		A1E6420320FA882B002359DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E6420820FA882B002359DE /* JAMPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAMPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E6420C20FA882B002359DE /* JAMPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAMPUITests.swift; sourceTree = "<group>"; };
+		A1E6420E20FA882B002359DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1E641E820FA8829002359DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E641FA20FA882B002359DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E6420520FA882B002359DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1E641E220FA8829002359DE = {
+			isa = PBXGroup;
+			children = (
+				A1E641ED20FA8829002359DE /* JAMP */,
+				A1E6420020FA882B002359DE /* JAMPTests */,
+				A1E6420B20FA882B002359DE /* JAMPUITests */,
+				A1E641EC20FA8829002359DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E641EC20FA8829002359DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E641EB20FA8829002359DE /* JAMP.app */,
+				A1E641FD20FA882B002359DE /* JAMPTests.xctest */,
+				A1E6420820FA882B002359DE /* JAMPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E641ED20FA8829002359DE /* JAMP */ = {
+			isa = PBXGroup;
+			children = (
+				A1E641EE20FA8829002359DE /* AppDelegate.swift */,
+				A1E641F020FA8829002359DE /* ViewController.swift */,
+				A1E641F220FA882B002359DE /* Assets.xcassets */,
+				A1E641F420FA882B002359DE /* Main.storyboard */,
+				A1E641F720FA882B002359DE /* Info.plist */,
+				A1E641F820FA882B002359DE /* JAMP.entitlements */,
+			);
+			path = JAMP;
+			sourceTree = "<group>";
+		};
+		A1E6420020FA882B002359DE /* JAMPTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E6420120FA882B002359DE /* JAMPTests.swift */,
+				A1E6420320FA882B002359DE /* Info.plist */,
+			);
+			path = JAMPTests;
+			sourceTree = "<group>";
+		};
+		A1E6420B20FA882B002359DE /* JAMPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E6420C20FA882B002359DE /* JAMPUITests.swift */,
+				A1E6420E20FA882B002359DE /* Info.plist */,
+			);
+			path = JAMPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1E641EA20FA8829002359DE /* JAMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E6421120FA882B002359DE /* Build configuration list for PBXNativeTarget "JAMP" */;
+			buildPhases = (
+				A1E641E720FA8829002359DE /* Sources */,
+				A1E641E820FA8829002359DE /* Frameworks */,
+				A1E641E920FA8829002359DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAMP;
+			productName = JAMP;
+			productReference = A1E641EB20FA8829002359DE /* JAMP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1E641FC20FA882B002359DE /* JAMPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E6421420FA882B002359DE /* Build configuration list for PBXNativeTarget "JAMPTests" */;
+			buildPhases = (
+				A1E641F920FA882B002359DE /* Sources */,
+				A1E641FA20FA882B002359DE /* Frameworks */,
+				A1E641FB20FA882B002359DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E641FF20FA882B002359DE /* PBXTargetDependency */,
+			);
+			name = JAMPTests;
+			productName = JAMPTests;
+			productReference = A1E641FD20FA882B002359DE /* JAMPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1E6420720FA882B002359DE /* JAMPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E6421720FA882B002359DE /* Build configuration list for PBXNativeTarget "JAMPUITests" */;
+			buildPhases = (
+				A1E6420420FA882B002359DE /* Sources */,
+				A1E6420520FA882B002359DE /* Frameworks */,
+				A1E6420620FA882B002359DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E6420A20FA882B002359DE /* PBXTargetDependency */,
+			);
+			name = JAMPUITests;
+			productName = JAMPUITests;
+			productReference = A1E6420820FA882B002359DE /* JAMPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E641E320FA8829002359DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Luka Janković";
+				TargetAttributes = {
+					A1E641EA20FA8829002359DE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A1E641FC20FA882B002359DE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A1E641EA20FA8829002359DE;
+					};
+					A1E6420720FA882B002359DE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A1E641EA20FA8829002359DE;
+					};
+				};
+			};
+			buildConfigurationList = A1E641E620FA8829002359DE /* Build configuration list for PBXProject "JAMP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1E641E220FA8829002359DE;
+			productRefGroup = A1E641EC20FA8829002359DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E641EA20FA8829002359DE /* JAMP */,
+				A1E641FC20FA882B002359DE /* JAMPTests */,
+				A1E6420720FA882B002359DE /* JAMPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1E641E920FA8829002359DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E641F320FA882B002359DE /* Assets.xcassets in Resources */,
+				A1E641F620FA882B002359DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E641FB20FA882B002359DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E6420620FA882B002359DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E641E720FA8829002359DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E641F120FA8829002359DE /* ViewController.swift in Sources */,
+				A1E641EF20FA8829002359DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E641F920FA882B002359DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E6420220FA882B002359DE /* JAMPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E6420420FA882B002359DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E6420D20FA882B002359DE /* JAMPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1E641FF20FA882B002359DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1E641EA20FA8829002359DE /* JAMP */;
+			targetProxy = A1E641FE20FA882B002359DE /* PBXContainerItemProxy */;
+		};
+		A1E6420A20FA882B002359DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1E641EA20FA8829002359DE /* JAMP */;
+			targetProxy = A1E6420920FA882B002359DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1E641F420FA882B002359DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E641F520FA882B002359DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1E6420F20FA882B002359DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1E6421020FA882B002359DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1E6421220FA882B002359DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JAMP/JAMP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JAMP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LServer.JAMP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A1E6421320FA882B002359DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JAMP/JAMP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JAMP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LServer.JAMP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		A1E6421520FA882B002359DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JAMPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LServer.JAMPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAMP.app/Contents/MacOS/JAMP";
+			};
+			name = Debug;
+		};
+		A1E6421620FA882B002359DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JAMPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LServer.JAMPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAMP.app/Contents/MacOS/JAMP";
+			};
+			name = Release;
+		};
+		A1E6421820FA882B002359DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JAMPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LServer.JAMPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = JAMP;
+			};
+			name = Debug;
+		};
+		A1E6421920FA882B002359DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JAMPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LServer.JAMPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = JAMP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1E641E620FA8829002359DE /* Build configuration list for PBXProject "JAMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E6420F20FA882B002359DE /* Debug */,
+				A1E6421020FA882B002359DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E6421120FA882B002359DE /* Build configuration list for PBXNativeTarget "JAMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E6421220FA882B002359DE /* Debug */,
+				A1E6421320FA882B002359DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E6421420FA882B002359DE /* Build configuration list for PBXNativeTarget "JAMPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E6421520FA882B002359DE /* Debug */,
+				A1E6421620FA882B002359DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E6421720FA882B002359DE /* Build configuration list for PBXNativeTarget "JAMPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E6421820FA882B002359DE /* Debug */,
+				A1E6421920FA882B002359DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E641E320FA8829002359DE /* Project object */;
+}
